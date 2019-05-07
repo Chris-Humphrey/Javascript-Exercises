@@ -93,41 +93,87 @@
 
 "LEVEL 3"
 
-function lvl3exercise1 () {
-    // Create a "hello" and a "world", return the concatenation of the two
-    var a = "hello";
-    var b = "world";
-    return a + " " + b;
-}
-console.log(lvl3exercise1())
+// function lvl3exercise1 () {
+//     // Create a "hello" and a "world", return the concatenation of the two
+//     var a = "hello";
+//     var b = "world";
+//     return a + " " + b;
+// }
+// console.log(lvl3exercise1())
 
-function lvl3exercise2 () {
-// Create a "hello" and a 12, return the concatenation of the two
-    var a = "hello";
-    var b = 12;
-    return a + " " + b;
-}
-console.log(lvl3exercise2())
+// function lvl3exercise2 () {
+// // Create a "hello" and a 12, return the concatenation of the two
+//     var a = "hello";
+//     var b = 12;
+//     return a + " " + b;
+// }
+// console.log(lvl3exercise2())
 
-function lvl3exercise3 () {
-// Create a variable that equals 12 and convert it to a string with concatenation. Return it.
-    var a = 12;
-    var b = a + ""
-    return b;
-}
-console.log(lvl3exercise3())
+// function lvl3exercise3 () {
+// // Create a variable that equals 12 and convert it to a string with concatenation. Return it.
+//     var a = 12;
+//     var b = a + ""
+//     return b;
+// }
+// console.log(lvl3exercise3())
 
-function lvl3exercise4 () {
-// Create a "hello world!" string. Return the length of the string
-    a = "hello world!";
-    return a.length;
-}
-console.log(lvl3exercise4())
+// function lvl3exercise4 () {
+// // Create a "hello world!" string. Return the length of the string
+//     a = "hello world!";
+//     return a.length;
+// }
+// console.log(lvl3exercise4())
 
-function lvl3exercise5 () {
-// Create a "hello world!" string. Return the index of the word "world".
-    a = "hello world!";
-    b = a.split(' ');
-    return b[1];
+// function lvl3exercise5 () {
+// // Create a "hello world!" string. Return the index of the word "world".
+//     a = "hello world!";
+//     b = a.split(' ');
+//     return b[1];
+// }
+// console.log(lvl3exercise5())
+
+
+"LEVEL 4"
+
+function lvl4exercise1 () {
+    // Return the boolean value "true"
+    a = true;
+    return a;
 }
-console.log(lvl3exercise5())
+console.log(lvl4exercise1())
+
+function lvl4exercise2 () {
+// Return the boolean value "false"
+    a = !Boolean;
+    return a;
+}
+console.log(lvl4exercise2())
+
+function lvl4exercise3 (bool) {
+// Return the opposite of the input boolean value
+    a = !bool;
+    return a;
+}
+console.log(lvl4exercise3(false))
+
+function lvl4exercise4 (bool1, bool2) {
+// Return the logical "and" of the input boolean values
+    return bool1 && bool2;
+}
+console.log(lvl4exercise4(true, false))
+
+function lvl4exercise5 (bool1, bool2) {
+// Return the logical "or" of the input boolean values
+    return bool1 || bool2;
+}
+console.log(lvl4exercise5(true, false))
+
+function lvl4exercise6 (bool1, bool2) {
+// Return the logical "equivalence" of the input boolean values
+ return bool1 == bool2;
+}
+console.log(lvl4exercise6(true, false))
+
+
+"LEVEL 5"
+
