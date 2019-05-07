@@ -135,45 +135,75 @@
 
 "LEVEL 4"
 
-function lvl4exercise1 () {
-    // Return the boolean value "true"
-    a = true;
-    return a;
-}
-console.log(lvl4exercise1())
+// function lvl4exercise1 () {
+//     // Return the boolean value "true"
+//     a = true;
+//     return a;
+// }
+// console.log(lvl4exercise1())
 
-function lvl4exercise2 () {
-// Return the boolean value "false"
-    a = !Boolean;
-    return a;
-}
-console.log(lvl4exercise2())
+// function lvl4exercise2 () {
+// // Return the boolean value "false"
+//     a = !Boolean;
+//     return a;
+// }
+// console.log(lvl4exercise2())
 
-function lvl4exercise3 (bool) {
-// Return the opposite of the input boolean value
-    a = !bool;
-    return a;
-}
-console.log(lvl4exercise3(false))
+// function lvl4exercise3 (bool) {
+// // Return the opposite of the input boolean value
+//     a = !bool;
+//     return a;
+// }
+// console.log(lvl4exercise3(false))
 
-function lvl4exercise4 (bool1, bool2) {
-// Return the logical "and" of the input boolean values
-    return bool1 && bool2;
-}
-console.log(lvl4exercise4(true, false))
+// function lvl4exercise4 (bool1, bool2) {
+// // Return the logical "and" of the input boolean values
+//     return bool1 && bool2;
+// }
+// console.log(lvl4exercise4(true, false))
 
-function lvl4exercise5 (bool1, bool2) {
-// Return the logical "or" of the input boolean values
-    return bool1 || bool2;
-}
-console.log(lvl4exercise5(true, false))
+// function lvl4exercise5 (bool1, bool2) {
+// // Return the logical "or" of the input boolean values
+//     return bool1 || bool2;
+// }
+// console.log(lvl4exercise5(true, false))
 
-function lvl4exercise6 (bool1, bool2) {
-// Return the logical "equivalence" of the input boolean values
- return bool1 == bool2;
-}
-console.log(lvl4exercise6(true, false))
+// function lvl4exercise6 (bool1, bool2) {
+// // Return the logical "equivalence" of the input boolean values
+//  return bool1 == bool2;
+// }
+// console.log(lvl4exercise6(true, false))
 
 
 "LEVEL 5"
 
+// function lvl5exercise1 () {
+//     // Push the string "hello" into the array and return it.
+//     var arr = [1, 'adam'];
+//     arr.push("hello");
+//     return arr;
+// }
+// console.log(lvl5exercise1())
+
+// function lvl5exercise2 () {
+// // Remove the last element from the array and return it
+//     var arr = [1, 'adam']
+//     arr.pop();
+//     return arr;
+// }
+// console.log(lvl5exercise2())
+
+// function lvl5exercise3 () {
+// // Return the length of the array
+//     var arr = [1, 'adam']
+//     var newArr = arr.length
+//     return newArr;
+// }
+// console.log(lvl5exercise3())
+
+// function lvl5exercise4 () {
+// // Return the index of "adam" in the array
+//     var arr = [1, 'adam']
+//     return arr[1];
+// }
+// console.log(lvl5exercise4())
